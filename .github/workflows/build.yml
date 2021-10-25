@@ -24,4 +24,5 @@ jobs:
         run: |
           cd cloudflared
           make test
-          ls
+          make cloudflared
+          ls -lh
